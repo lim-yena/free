@@ -1,3 +1,48 @@
-html, body, h1, h2, a, div, section, ul, li, header, footer {
-    padding:0; margin:0;
+html, body, h1, h2, a, div, section, ul, li, ol, header, footer {
+    padding:0;
+    margin:0;
+    color:#333;
+    box-sizing: border-box;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#333;
+}
+
+.container {
+    width:1200px;
+    margin:0 auto;
+}
+
+.rel{
+    position: relative;
+}
+
+.abs{
+    position: absolute;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+.aie {
+    align-items: flex-end;
 }
